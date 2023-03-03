@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <ul class="nav mt-5 nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+      <li class="nav-item"><a href="./index.html" class="nav-link active">Home</a></li>
+      <li class="nav-item"><a href="./cssbasico.html" class="nav-link">CssBasico</a></li>
+      <li class="nav-item"><a href="./cssavanzado.html" class="nav-link">CssAvanzado</a></li>
+    </ul>
+  </div>
+
+  <h1 class="display-1 text-secondary text-center">Bootstrap</h1><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col m-3">
+        <div class="media">
+          <img src="./img/basico.png" class="icon rounded" />
+          <div class="media-body">
+            <h5>Css Básico</h5>
+            <a class="link-dark" href="./cssbasico.html">Ejemplo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m-3">
+        <div class="media">
+          <img src="img/avanzado1.jpg" class="icon rounded" />
+          <div class="media-body">
+            <h5>Css Avanzado</h5>
+            <a class="link-dark" href="./cssavanzado.html">Ejemplo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m-3">
+        <div class="media">
+          <img src="img/imagen1.png" class="rounded icon" />
+          <div class="media-body">
+            <h5>Bootstrap</h5>
+            <a class="link-dark" href="./bootstrap.html">Ejemplo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m-3">
+        <div class="ratio ratio-1x1">
+          <iframe src="https://www.youtube.com/embed/9-SUmFFlhOY"></iframe>
+        </div>
+      </div>
+
+    </div><br>
+
+
+    <div class="container">
+      <table class="table text-center">
+        <thead>
+          <tr class="bg-secondary">
+            <th scope="col">#</th>
+            <th scope="col">Apartados</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>CSS Basico</td>
+            <td>Es el código que usaremos para dar estilo a lo esencial de nuestra página</td>
+            <td><a class="link-secondary" href="./cssbasico.html">Basico</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>CSS Avanzado</td>
+            <td>Es el código que usaremos para dar estilo al resto de la página</td>
+            <td><a class="link-secondary" href="./cssavanzado.html">Avanzado</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Bootstrap</td>
+            <td><a class="link-secondary" href="./bootstrap.html">Bootstrap</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div><br>
+
+    <div class="container mt-3">
+      <form>
+        <div class="mb-3 mt-3">
+          <label>Email:</label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+        </div>
+        <div class="mb-3">
+          <label>Password:</label>
+          <input type="password" class="form-control" name="pswd" id="pwd" placeholder="Enter password">
+        </div>
+        <input type="text" class="form-control" placeholder="Interes" disabled>
+        <input type="color" class="form-control form-control-color" value="#CCCCCC">
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+</body>
+
+</html>

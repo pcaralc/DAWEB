@@ -1,0 +1,101 @@
+*{
+    width: 90%;
+    margin: 0 auto;
+}
+#basico{
+    background-color: lightgray;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 87, 233);
+}
+ul{
+    list-style: none;
+}
+#eje1{
+    color:grey;
+}
+
+
+/*-------------------- css avanzado------------------------ */
+.contenedor2{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+#avanzado{
+    width: 90%;
+    box-sizing: border-box;
+    background-image: url(./fondo.jpg);
+}
+#titulo{
+    color: brown;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#link:hover{
+    background-color: rgb(19, 87, 233);
+    color: white;
+    font-size: 20px;
+}
+#li{
+    text-align: center;
+    padding: 10px;
+}
+#link{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 20%;
+    background-color: aliceblue;
+}
+.a{text-align: left;}
+.b{text-align: center; text-decoration: underline brown 1.5px;}
+.c{text-align: right;}
+
+.menu {
+    width: 25%;
+    float: left;
+  }
+.cuerpo {
+    width: 75%;
+    float: left;
+    background-color: gray;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10%;
+    opacity: 75%;
+}
+
+.imagen{
+    width: 300px;
+    height: 400px;
+}
+.imagen img{
+    border: 3px solid rgb(14, 191, 235);
+    border-radius: 50%;
+}
+#avan1{
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+#avan2{
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.text{
+    margin-top: 5%;
+}
+
